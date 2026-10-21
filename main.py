@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 import json
 import os
 
@@ -192,7 +190,6 @@ def main():
 
 if __name__ == "__main__":
     main()
-=======
 
 import json
 import os
@@ -360,9 +357,10 @@ def main():
         print("3. Search Student")
         print("4. Update Student")
         print("5. Delete Student")
+        print("7. Count Students")
         print("6. Exit")
 
-        choice = input("Enter your choice (1-6): ").strip()
+        choice = input("Enter your choice (1-7): ").strip()
 
         if choice == "1":
             add_student(students)
@@ -374,13 +372,14 @@ def main():
             update_student(students)
         elif choice == "5":
             delete_student(students)
+        elif choice == "7":
+            print("Total students:", len(students))
         elif choice == "6":
             print("Thank you for using the application!")
             break
         else:
-            print("Invalid choice. Please select 1-6.")
+            print("Invalid choice. Please select 1-7.")
 
 
 if __name__ == "__main__":
     main()
->>>>>>> 8d898ec14d20bf94680a8fdb992a13cdca343694
