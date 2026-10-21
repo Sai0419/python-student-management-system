@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 A simple Python project to manage student records.
 
 - Add student details
@@ -23,7 +22,6 @@ A simple Python project to manage student records.
 
 
 This project helped me practice Python functions, lists, dictionaries, loops, file handling, and error handling.
-=======
 A simple Python project to manage student records.
 
 - Add student details
@@ -48,4 +46,3 @@ A simple Python project to manage student records.
 
 
 This project helped me practice Python functions, lists, dictionaries, loops, file handling, and error handling.
->>>>>>> 8d898ec14d20bf94680a8fdb992a13cdca343694
